@@ -1,0 +1,25 @@
+regressor=RandomForestRegressor(
+                            n_estimators=n_estimators,
+                            max_depth=max_depth,
+                            random_state=42)
+
+
+best_x: [79.43148967  6.82404557] 
+best_y: 0.8814896968958466
+best_x[0]: 79
+best_x[1]: 6
+MAE_train: 0.0003553085070560343
+MSE_train: 2.2625522469564786e-07
+RMSE_train: 0.00047566293180743846
+MAPE_train: 1.3711004192365146
+r2_score_train: 0.9659727199221715
+EV_train: 0.9661898103221427
+-------------------
+MAE_test: 0.0005772036657726448
+MSE_test: 6.586321915288895e-07
+RMSE_test: 0.0008115615759317894
+MAPE_test: 0.6105053649115515
+r2_score_test: 0.8814896968958466
+EV_test: 0.904664950809424
+-------------------
+Duration is  1:46:20.333790
